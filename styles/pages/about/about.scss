@@ -1,0 +1,24 @@
+.about{
+  @extend %page;
+
+//  background: $color-neoncarrot;
+//  color: $color-bright-gray;
+  //opacity: 0;
+}
+
+.about__wrapper{
+  padding-top: 10rem;
+}
+
+.about__title{
+  @extend %title-100;
+
+  margin: auto;
+  max-width: 126rem;
+  text-align: center;
+
+
+  @include media('<phone') {
+    max-width: 67.7rem;
+  }
+}

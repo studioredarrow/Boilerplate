@@ -1,0 +1,2 @@
+export const COLOR_NEONCARROT= '#FF9138'
+export const COLOR_QUARTER_SPANISH_WHITE = '#F9F1E7'
